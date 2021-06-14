@@ -24,6 +24,12 @@ class Waiter
         arr_max = arr.max 
         best_meal = self.meals.find{|meal| meal.tip == arr_max}
         best_meal.customer
+
+        # best_tipped_meal = meals.max do |meal_a, meal_b|
+        #     meal_a.tip <=> meal_b.tip
+        #   end
+        
+        #   best_tipped_meal.customer
     end
 
 end
